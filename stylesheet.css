@@ -1,0 +1,108 @@
+canvas {
+    border-radius: 5px;
+    border-width: medium;
+    border-style: solid;
+    border-color: grey;
+    background-color: #fff;
+}
+
+*{box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  font-variant: small-caps;}
+
+html {
+  width=100%;
+}
+body {
+  width=100%;
+  height=100%;
+}
+
+#GameField {
+  width:300;
+  height:300;
+}
+
+
+.sidecanvas {
+  width: 100px;
+  height: 190px;
+}
+
+.panel {
+  padding: 10px;
+  text-align:center;
+  position:absolute;
+  top:12%;
+  width:20%;
+  height:88%;
+  border-width:thick;
+  margin: 0;
+}
+
+#rightpanel{
+  right:0px;
+  border-width: medium;
+  border-style: solid;
+  border-radius: 5px;
+}
+#leftpanel{
+  left:0px;
+  border-width: medium;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.canvascontainer {
+  position:absolute;
+  top:12%;
+  left:20%;
+  right:20%;
+  width:60%;
+  height:58%;
+  background-color:white;
+  text-align:center;
+}
+
+.actionpanel {
+  padding: 10px;
+  position:absolute;
+  bottom:10%;
+  left:20%;
+  height:15%;
+  width:60%;
+  margin: 0;
+  text-align: center;
+}
+.gamepanel {
+  padding: 10px;
+  position:absolute;
+  bottom:0%;
+  left:20%;
+  height:15%;
+  width:60%;
+  margin: 0;
+  text-align: center;
+}
+
+.actionpanel > button {
+  width:170px;
+  height:60px;
+  font-size : 18px;
+}
+.gamepanel > button {
+  width:170px;
+  height:60px;
+  font-size : 18px;
+}
+
+.header {
+  position: absolute;
+  height:12%;
+  width:100%;
+  top:0px;
+  left: 0px;
+  background-color:white;
+  text-align:center;
+  padding: 0px;
+}

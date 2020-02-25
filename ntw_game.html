@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body onload="startGame()">
+<div class="header">
+  <h1> Testing Ground for Network Games</h1>
+</div>
+<div class="panel" id="leftpanel">
+ <h3 id="Ply_1_name"> Player I </h3>
+  <p> Pebbles </p>
+ <canvas class="sidecanvas" id="leftpebblescanvas"></canvas>
+ <p> Arrows </p>
+ <canvas class="sidecanvas" id="leftarrowcanvas"></canvas>
+</div>
+<div class="canvascontainer" id="container">
+  <canvas id="GameField"></canvas>
+</div>
+<div class="actionpanel">
+  <button id="finished1">Player 1 to start</button>
+  <button id="finished2">Player 2 to start</button>
+</div>
+<div class="gamepanel">
+  <button id="Reset" style="background-color: #ccc;">Reset</button>
+  <button id="Rules" style="background-color: #ccc;">How To Play</button>
+</div>
+<div class="panel" id="rightpanel">
+  <h3 id="Ply_2_name"> Player II </h3>
+  <p> Pebbles </p>
+    <canvas class="sidecanvas" id="rightpebblescanvas"></canvas>
+ <p> Arrows </p>
+    <canvas class="sidecanvas" id="rightarrowcanvas"></canvas>
+</div>
+</body>
+<script src="game.js">
+
+
+</script>
+</html>

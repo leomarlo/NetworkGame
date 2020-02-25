@@ -1,0 +1,9 @@
+only allow arrow placement between two nodes
+only allow arrow placement of l2 distance x
+
+after all arrows are gone, take away the least connected 
+nodes and their arrows. untill the last one survives
+
+
+when placing arrow, mark the starting point
+
